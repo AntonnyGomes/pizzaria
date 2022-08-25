@@ -6,5 +6,16 @@ module.exports = {
 
     index: (req, res) => {
         res.render('index.ejs', {pizzas});
+    },
+    show:(req,res) =>{
+        //LEvantar o id digitado 
+        let id = req.params.id;
+        // Encontrar no array de pizzas a pizza procurada
+        let pizza = pizzas.find(p => p.id == id)
+        res.render('pizza.ejs',{ pizza })
+    },
+    search:(req,res) =>{
+        
     }
+
 }
