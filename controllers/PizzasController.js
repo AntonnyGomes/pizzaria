@@ -15,7 +15,9 @@ module.exports = {
         res.render('pizza.ejs',{ pizza })
     },
     search:(req,res) =>{
-        
+        let termoBuscado = req.query.q 
+        const pizzasFiltadas = pizzas.filter(p => p.nome.toLowerCase().includes(termoBuscado.toLowerCase()))
+        res.render('index.ejs',{pizzas:pizzasFiltadas})
     }
 
 }
