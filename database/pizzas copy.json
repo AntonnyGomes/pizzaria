@@ -10,7 +10,7 @@
         "preco": 38.5,
         "img": "/img/calabresa.jpg",
         "destaque": true,
-        "score": 5
+        "score": 4
     },
     {
         "id": 2,
@@ -22,8 +22,7 @@
         ],
         "preco": 48.55,
         "img": "/img/pepperoni.jpg",
-        "destaque": false,
-        "score": 5
+        "destaque": false
     },
     {
         "id": 3,
@@ -37,7 +36,7 @@
         "preco": 38.5,
         "img": "/img/fracatu.jpg",
         "destaque": true,
-        "score": 8
+        "score": 7
     },
     {
         "id": 4,
@@ -49,8 +48,7 @@
         ],
         "preco": 33.5,
         "img": "/img/marguerita.jpg",
-        "destaque": false,
-        "score": 1
+        "destaque": false
     },
     {
         "id": 5,
