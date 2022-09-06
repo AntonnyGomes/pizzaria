@@ -1,5 +1,6 @@
 // Importando o express
 const express = require('express');
+const RegistraHoraDeAcesso = require('./middlewares/registraHoraDeAcesso');
 
 // Criando a aplicação express
 const app = express();
@@ -8,6 +9,7 @@ const app = express();
 const PizzasRouter = require('./routes/PizzasRouter')
 // verificando se a requisição e para a pasta public
 app.use(express.static("public"));
+app.use(RegistraHoraDeAcesso)
 
 
 // Fazendo com que a aplicação utilize o roteador para todas as req que chegarem para endereços que comecem com /pizzas
