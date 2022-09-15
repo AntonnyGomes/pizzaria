@@ -1,4 +1,3 @@
-
 // Criar um arquivo RegistraHoraDeAcesso.js. Nele, escrever uma função middleware que
 // registre no arquivo acessos.txt o horário em que cada requisição é recebida pelo servidor.
 // Formato da hora: AAAA-MM-DD HH:mm:sss

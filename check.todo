@@ -1,0 +1,85 @@
+☐ Iniciar a biblioteca node (NPM)
+    npm init -y
+
+☐ Criar as pastas gerais e arquivos
+- public
+    - css
+    - img
+- src
+    - controllers
+    - database
+    - middlewares
+    - routers
+    - views
+
+☐ Instalar  a biblioteca express que rodará como servidor
+    npm i express
+
+☐ Instalar  uma dependência de densenvolvimento (-D) nodemon
+    npm i -D nodemon
+
+☐ Colocar no arquivo package.json na propriedade script escrever
+    Opção 1: "start": "nodemon app.js" (Para esse, executar npm start)
+    Opção 2: "dev": "nodemon app.js" (Para esse, executar npm run dev)
+    
+☐ Criar um app (servidor express):
+    - Cria um arquivo app.js,
+    - Cria uma constante express para importar a biblioteca express,
+    - Cria uma constante app para guardar servidor express.
+
+☐ Importar roteador no app.js
+
+☐ Criar codigo(app.use) dentro do app.js que vai direcionar para o arquivo de rotas ou seja fazer um aplicação que utilize o roteador
+
+☐ Por servidor de prontidão
+
+☐ Criar roteador dentro da pasta router.
+*Em geral cria um roteador por área do site.
+    - Importa o express.
+    - Cria as constante do roteador.
+        * Atribuir a ela express.Router();
+
+    - Importa os controller.
+    - Criar uma rota:
+        * Criar uma rota é dizer ao roteador qual o endereço
+        e a função(controller) a ser executada quando o endereço receber uma requisição.
+    - Exportar o roteador.
+
+☐ Criar o arquivo controller (Controller.js).
+    * Criar as funções e importar bibliotacas por demanda.
+    * Cada funçao retorna uma view ou redireciona para outro endereço. Exportar os controllers.
+
+☐ Instalar o Ejs.
+    npm i ejs
+
+☐ Configuar o ejs como template engine.
+    no app.js adicionar...
+    app.set('view engine','ejs')
+
+☐ Configurar a pasta de views
+    app.set('views', './src/views');
+
+☐ Caso não tenha banco de dados vai armazenar as informações no arquivo Jason. Criar um arquivo.json dento para pasta database.
+
+☐ Criar a view.
+
+☐ TESTAR E CORRIGIR ERROS
+    (npm run dev) OU (npm start)
+    
+☐ Iniciar o projeto git
+    git init
+
+☐ Ignorar a pasta node module
+    Criar um .gitignore com a linha "node_modules"
+
+☐ Adicionar arquivos .gitkeep nas pastas vazias
+
+☐ Adicionar os arquivos para ser comitado
+    git add --all
+
+☐ Configurar globalmente o nome e endereço do git na maquina
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe@example.com
+
+☐ Realizar o commit
+    git commit -m "Primeiro commit"
