@@ -14,7 +14,7 @@
 
     <main>
 
-        <form action="/usuarios/login" id="formLogin">
+        <form method="post" action="/usuarios/login" id="formLogin">
             <h2>Faça Login</h2>
             <label>
                 <span>E-mail:</span>
@@ -29,7 +29,7 @@
             </div>
         </form>
 
-        <form action="/usuarios/add" id="formCadastrar">
+        <form method="post" action="/usuarios/add" id="formCadastrar">
             <h2>Cadastre-se</h2>
             <label>
                 <span>E-mail:</span>
@@ -49,10 +49,17 @@
             </label>
             <div class="controles">
                 <button type="submit">Cadastrar</button>
-            </label>
+            </div>
+            <% if(erroNoCadastro){ %>
+                <div class="erro">
+                    FALHA AO CADASTRAR USUARIO. Verifique se senha e confirmação desenha estão corretas.
+                </div>
+            <%}%>
         </form>
 
     </main>
 </body>
 
 </html>
+
+

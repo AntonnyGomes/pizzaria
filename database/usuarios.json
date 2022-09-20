@@ -1,0 +1,37 @@
+[
+    {
+        "email": "teste3@teste",
+        "senha": "$2b$10$zLcU3S0jeZpjGe/o6.YkC.n4a04g3gN0GSweJQH/vFFrTYb6H9GmG",
+        "enderecos": [
+            "rua dos bobos 0"
+        ]
+    },
+    {
+        "email": "teste3@teste",
+        "senha": "$2b$10$cgSvjY4oBUQ308hxYOia6u6PAEAWuBXmsaiN/3JcdXYuxtgbSPQ3.",
+        "enderecos": [
+            "rua dos bobos 0"
+        ]
+    },
+    {
+        "email": "teste3@teste",
+        "senha": "$2b$10$GY33bE0/AqH98rwQ1e9gH.jrKQoLd9zj16MBCkvTDwAliIPuKvJPe",
+        "enderecos": [
+            "rua dos bobos 0"
+        ]
+    },
+    {
+        "email": "teste4@teste",
+        "senha": "$2b$10$8ntAml8Gr/x13AwY/RflAuBEE4PwQ8kqMFfFDfyOEbKNlnUP9dpJa",
+        "enderecos": [
+            "rua dos bobos 0"
+        ]
+    },
+    {
+        "email": "test@teste",
+        "senha": "$2b$10$BF37nkBnskwDtVZQQodozOxRAOq7FYKncQ6HTajy2l8jUV16q.YFK",
+        "enderecos": [
+            "rua dos bobos 0"
+        ]
+    }
+]
